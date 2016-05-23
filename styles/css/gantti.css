@@ -127,11 +127,20 @@
 .gantt-block {
   background: #268bd2; }
 
-.gantt-block.important {
-  background: #b58900; }
+.gantt-block.doing {
+  background: #268bd2; }
 
-.gantt-block.urgent {
-  background: #d33682; }
+.gantt-block.will {
+  background: #4f4f4f; }
+
+.gantt-block.ready {
+  background: #7d26cd; }
+
+.gantt-block.delayed {
+  background: #cd2626; }
+
+.gantt-block.done {
+  background: #458B00; }
 
 /* today sign */
 .gantt time {
